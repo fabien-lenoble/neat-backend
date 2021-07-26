@@ -1,5 +1,5 @@
 dev:
-	docker-compose run --rm --service-ports node app.js
+	docker-compose run --name neat-backend --rm --service-ports node npm run start
 
 install:
 	docker-compose run --rm node npm install
